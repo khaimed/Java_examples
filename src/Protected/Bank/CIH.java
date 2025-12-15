@@ -1,4 +1,4 @@
-package Bank;
+package Protected.Main.Bank;
 
 public class CIH  extends Bank {
 

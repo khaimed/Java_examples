@@ -1,12 +1,12 @@
-package Main;
+package Protected.Main.Company;
 
-import Bank.Bank;
-import Bank.CIH;
+import Protected.Main.Bank.Bank;
+import Protected.Main.Bank.CIH;
 
 public class Main {
     public static void main(String[] args) {
         Bank b1 = new Bank("Ahmed","Sadir","ahmed@sadir.com","060000000");
-//        Bank b2 = new Bank("Youness","Rafia","youness@rafia.com","060200000");
+//        Protected.Main.Bank b2 = new Protected.Main.Bank("Youness","Rafia","youness@rafia.com","060200000");
 
 //        System.out.println(b1.getInfo());
 //        b1.setPassword("ahmed123");
@@ -25,7 +25,7 @@ public class Main {
 //        b1.retrait(5000);
 //        System.out.println(b1.getMontant());
 //
-//        Bank.nbrClient();
+//        Protected.Main.Bank.nbrClient();
         CIH cih1 = new CIH("ahmed","asura","ahmed@asura.com","060000000");
         cih1.getInfoCIH();
         cih1.setMontant(3000.00);

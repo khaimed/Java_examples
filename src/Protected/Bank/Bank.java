@@ -1,4 +1,4 @@
-package Bank;
+package Protected.Main.Bank;
 
 // class
 public class Bank {
