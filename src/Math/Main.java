@@ -42,10 +42,10 @@ class Point{
     public static double getDistance(Point p1, Point p2){
         return Math.sqrt(Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2));
     }
-    /*
-        6. Créer une classe exécutable Program qui permet de tester les fonctionnalités précédentes.
-    */
 }
+/*
+    6. Créer une classe exécutable Program qui permet de tester les fonctionnalités précédentes.
+*/
 public class Main {
     public static void main(String[] args) {
         // 1. Affichage de point
